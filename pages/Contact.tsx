@@ -44,8 +44,8 @@ const Contact: React.FC = () => {
               </p>
               <p className="text-zinc-400 flex items-center">
                 <span className="font-bold text-white w-24">Email:</span>
-                <a href="mailto:info@pigskinscincy.com" className="hover:text-orange-500">
-                  info@pigskinscincy.com
+                <a href={`mailto:${BUSINESS_INFO.email}`} className="hover:text-orange-500">
+                  {BUSINESS_INFO.email}
                 </a>
               </p>
             </div>
@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
               <ParkingCircle className="text-orange-500 mr-2" /> PARKING NOTES
             </h3>
             <p className="text-zinc-400">
-              Free street parking is available after 6 PM. There is also a dedicated lot directly behind the building for Pigskins customers. Look for the orange signs!
+              Free street parking is available after 6 PM. There is also a dedicated lot directly behind the building for Copper Kettle guests. Look for the orange signs!
             </p>
           </div>
         </div>

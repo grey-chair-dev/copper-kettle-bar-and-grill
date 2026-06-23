@@ -23,7 +23,7 @@ const ScrollToTop = () => {
 
 const LoadingScreen = () => (
   <div className="min-h-screen bg-zinc-950 flex items-center justify-center">
-    <div className="text-orange-500 animate-pulse text-2xl font-oswald font-bold tracking-widest">PIGSKINS...</div>
+    <div className="text-orange-500 animate-pulse text-2xl font-oswald font-bold tracking-widest">COPPER KETTLE...</div>
   </div>
 );
 

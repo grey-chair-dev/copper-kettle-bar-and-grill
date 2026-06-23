@@ -29,7 +29,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link to="/" className="flex items-center space-x-2 shrink-0">
-              <span className="text-2xl font-oswald font-bold tracking-tighter text-orange-500">PIGSKINS</span>
+              <span className="text-2xl font-oswald font-bold tracking-tighter text-orange-500">{BUSINESS_INFO.shortName.toUpperCase()}</span>
               <span className="hidden lg:inline text-sm font-semibold text-zinc-400">BAR & GRILL</span>
             </Link>
 
@@ -63,7 +63,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <a 
                   href={`tel:${formattedPhone}`}
                   className="flex items-center justify-center w-10 h-10 bg-orange-600/10 border border-orange-600/20 rounded-lg text-orange-500 hover:bg-orange-600/20 transition-all"
-                  aria-label="Call Pigskins"
+                  aria-label={`Call ${BUSINESS_INFO.shortName}`}
                 >
                   <Phone size={18} />
                 </a>
@@ -116,7 +116,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       <footer className="bg-zinc-900 border-t border-zinc-800 py-12 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-orange-500">PIGSKINS CINCINNATI</h3>
+            <h3 className="text-xl font-bold mb-4 text-orange-500">{BUSINESS_INFO.shortName.toUpperCase()} {BUSINESS_INFO.city.toUpperCase()}</h3>
             <p className="text-zinc-400 mb-4 font-kitchen text-sm">Your neighborhood spot for sports, cold beer, and the best wings in town. No gimmicks, just good times.</p>
             <div className="flex space-x-4">
                {/* Placeholder Socials */}
@@ -155,8 +155,21 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             </ul>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-zinc-800 text-center text-zinc-500 text-xs font-kitchen">
-          &copy; {new Date().getFullYear()} Pigskins Bar and Grill. All rights reserved. Built for Cincinnati.
+        <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-zinc-800 text-center text-zinc-500 text-xs font-kitchen space-y-2">
+          <p>
+            &copy; {new Date().getFullYear()} {BUSINESS_INFO.name}. Demo site — not a real business. Built for Cincinnati.
+          </p>
+          <p>
+            Built by{' '}
+            <a
+              href="https://greychair.digital"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-400 hover:text-orange-500 transition-colors underline underline-offset-2"
+            >
+              Grey Chair Digital
+            </a>
+          </p>
         </div>
       </footer>
     </div>

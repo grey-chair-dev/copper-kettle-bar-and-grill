@@ -18,11 +18,11 @@ const About: React.FC = () => {
       <section className="py-24 px-4 max-w-4xl mx-auto">
         <div className="space-y-12">
           <p className="text-3xl text-zinc-100 font-bold leading-tight italic">
-            "I spent twenty years in commercial kitchens before opening Pigskins. I saw too many bars trade flavor for convenience. I opened this place to do the opposite."
+            "I spent twenty years in commercial kitchens before opening Copper Kettle. I saw too many bars trade flavor for convenience. I opened this place to do the opposite."
           </p>
           
           <div className="prose prose-invert prose-orange max-w-none">
-            <h2 className="text-4xl font-bold text-orange-500 uppercase tracking-tighter">THE PIGSKINS STANDARD</h2>
+            <h2 className="text-4xl font-bold text-orange-500 uppercase tracking-tighter">THE COPPER KETTLE STANDARD</h2>
             <p className="text-zinc-400 text-lg leading-relaxed font-kitchen">
               We opened in 2008 with four taps and a grill that didn't know how to quit. Today, we've got more screens and more beer, but the philosophy hasn't moved an inch. We don't believe in "upselling" or "table turnover." We believe in a hot meal, a cold glass, and a place where you don't have to check your bank account just to enjoy the game.
             </p>
@@ -35,7 +35,7 @@ const About: React.FC = () => {
                />
                <div className="absolute -bottom-6 -right-6 bg-orange-600 p-8 hidden md:block max-w-xs shadow-2xl border-4 border-zinc-950">
                   <h4 className="text-white font-black text-xl mb-2">LOCAL SOURCING</h4>
-                  <p className="text-orange-100 text-xs font-kitchen">We proudy serve Klosterman buns, Glier's Goetta, and meats sourced from Ohio valley farms.</p>
+                  <p className="text-orange-100 text-xs font-kitchen">We proudly serve Klosterman buns, Glier's Goetta, and meats sourced from Ohio valley farms.</p>
                </div>
             </div>
 

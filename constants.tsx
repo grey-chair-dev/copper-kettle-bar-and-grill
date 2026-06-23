@@ -2,16 +2,20 @@
 import { MenuItem, GameEvent } from './types';
 
 export const BUSINESS_INFO = {
-  name: "Pigskins Bar and Grill",
+  name: "Copper Kettle Bar & Grill",
+  shortName: "Copper Kettle",
   tagline: "Cold Pours & Heavy Plates Since '08",
-  address: "455 Old State Rte 74, Cincinnati, OH 45244",
-  phone: "(513) 555-0199",
+  city: "Cincinnati",
+  state: "OH",
+  address: "100 Demo Plaza, Cincinnati, OH 45202",
+  phone: "(555) 555-0199",
+  email: "hello@copperkettlecincy.demo",
   hours: [
     { day: "Mon - Thu", time: "11:00 AM - 12:00 AM" },
     { day: "Fri - Sat", time: "11:00 AM - 2:00 AM" },
-    { day: "Sunday", time: "10:00 AM - 11:00 PM" } // Sunday opens early for NFL
+    { day: "Sunday", time: "10:00 AM - 11:00 PM" }
   ],
-  googleMapsUrl: "https://maps.app.goo.gl/FBDQo9EcfhJ8NRru9"
+  googleMapsUrl: "#"
 };
 
 export const MENU_DATA: MenuItem[] = [
@@ -200,7 +204,7 @@ export const MENU_DATA: MenuItem[] = [
 ];
 
 export const UPCOMING_EVENTS: GameEvent[] = [
-  { id: 'e1', title: 'BENGALS VS. BROWNS', date: 'Sunday, Oct 20', time: '1:00 PM', description: 'Battle of Ohio. Full Audio in every room. Skyline giveaway at halftime.', highlight: true },
-  { id: 'e2', title: 'REDS SEASON FINALE', date: 'Tuesday, Oct 22', time: '7:10 PM', description: 'Happy hour pricing until the final out. $3 Hot Dogs.', highlight: false },
+  { id: 'e1', title: 'BENGALS VS. BROWNS', date: 'Sunday, Oct 20', time: '1:00 PM', description: 'Battle of Ohio. Full audio in every room. Free appetizer raffle at halftime.', highlight: true },
+  { id: 'e2', title: 'REDS SEASON FINALE', date: 'Tuesday, Oct 22', time: '7:10 PM', description: 'Happy hour pricing until the final out. $3 hot dogs all night.', highlight: false },
   { id: 'e3', title: 'COLLEGE GAMEDAY', date: 'Saturday, Oct 26', time: '10:00 AM', description: 'Doors open early. Bearcats on the big screen. Bloody Mary bar open until noon.', highlight: false }
 ];

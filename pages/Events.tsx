@@ -10,7 +10,7 @@ const Events: React.FC = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-6xl font-black mb-6 tracking-tighter">GAME DAY</h1>
           <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
-            Cincinnati's home for the Bengals, Reds, Bearcats, and FC Cincinnati. 
+            Cincinnati's home for the Bengals, Reds, Bearcats, and FC Cincinnati.
             We never charge a cover. Just bring your passion.
           </p>
         </div>

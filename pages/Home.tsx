@@ -13,7 +13,7 @@ const Home: React.FC = () => {
           <img 
             src="https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&q=80&w=2070" 
             className="w-full h-full object-cover grayscale-[40%] contrast-[1.2] brightness-[0.3]"
-            alt="Pigskins Bar Atmosphere"
+            alt="Copper Kettle bar atmosphere"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/60 to-transparent"></div>
         </div>
